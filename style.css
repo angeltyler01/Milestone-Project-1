@@ -1,3 +1,45 @@
 body{
-    background-color: blue;
+    background-color: beige;
 }
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color:darkred;
+    font-size: 8em;
+}
+
+.start{
+    background-color: white;
+    color: #aa1212;
+    border: 2px solid #aa1212;
+    border-radius: 8px;
+    font-size: 50px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 25px 30px;
+    font-family:sans-serif;
+    transition-duration: 0.4s;
+}
+/*color transition for button*/
+.start:hover{
+    background-color: #aa1212; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* puts button in center*/
+#startButton{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#sumoCharacter{
+    width: 90px;
+}
+
+
+
