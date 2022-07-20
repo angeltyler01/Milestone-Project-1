@@ -38,7 +38,17 @@ h1{
 }
 
 #sumoCharacter{
-    width: 90px;
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100px;
+    height:100px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
